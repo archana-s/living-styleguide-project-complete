@@ -1,0 +1,25 @@
+{
+  "name": "living-styleguide-project",
+  "version": "1.0.0",
+  "description": "Sample Living Style Guide Project for Safari Learning Path",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js & gulp --gulpfile ./styleguide/gulpfile.js"
+  },
+  "author": "Archana Sankaranarayanan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "cssnano": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "postcss-css-variables": "^0.7.0",
+    "postcss-import": "^10.0.0",
+    "postcss-style-guide": "^0.14.0"
+  }
+}
